@@ -1,4 +1,4 @@
-INRODUCTION:
+INTRODUCTION:
 
 This is a small script to produce common variants of a particular password to be used when testing login credentials using tools such as BurpSuite Intruder or similar. This is useful when a simple password may have been used, but has been made more complex owing to applications commonly enforcing the use of passwords that are longer, have capital letter, numbers symbols etc. 
 The list of permutations produced of a particular word is not meant to be exhaustive, but merely to show the most common iterations of a particular word that has been made more complex. Analysis of huge numbers of existing passwords have shown that when a user has to choose a complex password they sometimes use their existing (simple) password but change it using predictable methods. This gives them the best balance of meeting the application's complexity requirements whilst still being able to easily remember their password. For instance if the password `cisco' is chosen, then it would be common for this to be changed to e.g. Cisco1 or c1sco or cisc0 or cisco99 to make it more complex. 
