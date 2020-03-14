@@ -10,16 +10,16 @@ Once a word is entered in the program, the user can choose one of 5 options. Opt
 Option 1 will produce a very short list of the following permutations of a word:
 
 - doubling the word eg testtest
-- adding 1,2,3,4,9 separately and together before and after the word eg test9, 12test, 1234test
+- adding 1,2,3,4,9 separately and together before and after the word e.g. test9, 12test, 1234test
 - substituting the letters for symbols eg `i' for `1' and `!' ,  `a' for `@' and `h' for `#'.
 - substituting `o' for `0', and `e' for `3'
 - adding `?', `!', `-' and `*' before and after the word eg !test, test*
-- capitilising various letters eg Test, TEST, TesT
+- capitalising various letters e.g. Test, TEST, TesT
 
 
 Option 2 will generate a longer list of permutations which do all the variations of option 1), for instance, for the word `house' there would be: #0USE! , !HoUs3, -h0usE etc
 
-Option 3 will generate a longer list which includes everything from options 1) and 2) but also adds the characters `.’, `£', `$' and `%' to the front and then at the end of each word.
+Option 3 will generate a longer list which includes everything from options 1) and 2) but also adds the characters `.â€™, `Â£', `$' and `%' to the front and then at the end of each word.
 
 Option 4 generates a list which includes everything in option 1 and 2, but with the following additions to the basic permutations as listed in option 1):
 
@@ -43,9 +43,9 @@ Download the cpp.class and cpp.java files from this repo and save to a folder on
 
 java cpp
 
-Then enter the word to be changed. It can consist of any characters, capital letters, symbols, numbers etc, but has to be between 4 and 9 characters (inclusive) in length. Once a word has been entered, you will be asked which option you want from 1 to 5. As meniotned above, Option 1 will be the shortest, simplest list, presenting the most common permutations of the entered word. Option 2 will produce longer list as it has more permutations and so on until option 5 which has the longest list of permutations.
+Then enter the word to be changed. It can consist of any characters, capital letters, symbols, numbers etc, but has to be between 4 and 9 characters (inclusive) in length. Once a word has been entered, you will be asked which option you want from 1 to 5. As mentioned above, Option 1 will be the shortest, simplest list, presenting the most common permutations of the entered word. Option 2 will produce longer list as it has more permutations and so on until option 5 which has the longest list of permutations.
 
 The final generated list of permutations will be saved as a .txt file in the same directory as the program files. 
 
-This list can be copied & pasted intp BurpSuite Intruder for password-guessing tests or used in other similar tools.
+This list can be copied & pasted into BurpSuite Intruder for password-guessing tests or used in other similar tools.
 
